@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+	<recettes>
+  <recette>
+  	<nom>brioche coco</nom>
+  	<description>
+	  	1- mélangez le yaourt, la coco rapé et la farine de coco. Ensuite, insérez l'oeuf.
+	  	2- Faire cuire au micro onde pendant 1M30
+  	</description>
+  	<details>
+	  	<oeuf>1</oeuf>
+	  	<yaourt>250</yaourt>
+	  	<farine_de_coco>15</farine_de_coco>
+	  	<copeaux_de_coco>25</copeaux_de_coco>
+  	</details>
+  </recette>
+
+  <recette>
+  	<nom>crepe coco</nom>
+  	<description>
+	  	1- 
+  	</description>
+  	<details>
+	  	<oeuf>3</oeuf>
+	  	<farine_de_coco>30</farine_de_coco>
+	  	<farine_ble>20</farine_ble>
+	  	<lait>150</lait>
+  	</details>
+  </recette>
+  
+  <recette>
+  	<nom>brioche coco allege</nom>
+  	<description>
+	  	1- mélangez la farine de coco avec l'eau. Ensuite, insérez l'oeuf.
+	  	2- Faire cuire au micro onde pendant 4M, essayer plus longtemps
+  	</description>
+  	<details>
+	  	<oeuf>1</oeuf>
+	  	<eau>190</eau>
+	  	<farine_de_coco>30</farine_de_coco>
+  	</details>
+  </recette>
+  
+  <recette>
+  	<nom>naan</nom>
+  	<description>
+	  	1- mélangez la farine de coco avec l'eau. Ensuite, insérez l'oeuf.
+	  	2- Faire cuire au micro onde pendant 4M, essayer plus longtemps
+  	</description>
+  	<details>
+	  	<eau>250</eau>
+	  	<farine_de_coco>125</farine_de_coco>
+  	</details>
+  </recette>  
+
+  <recette>
+  	<nom>pate pizza paleo yaourt</nom>
+  	<description>
+	  	1- toDo
+  	</description>
+  	<details>
+	  	<yaourt>240</yaourt>
+	  	<farine_de_coco>30</farine_de_coco>
+	  	<copeaux_de_coco>60</copeaux_de_coco>
+  	</details>
+  </recette>  
+  
+  <recette>
+  	<nom>pate pizza paleo oeuf</nom>
+  	<description>
+	  	1- toDo
+  	</description>
+  	<details>
+	  	<oeuf>4</oeuf>
+	  	<farine_de_coco>30</farine_de_coco>
+	  	<copeaux_de_coco>60</copeaux_de_coco>
+  	</details>
+  </recette>   
+  
+  <recette>
+  	<nom>brioche</nom>
+  	<description>
+	  	1- Ajouter du lait tiède (200 ml). 
+	  	2- Ajouter la levure de boulanger (8g).
+	  	3- Couvrir pendant 1 min
+	  	4- Ajouter oeuf (1)
+	  	5- Ajouter la farine (120 coco ou 500 blé)
+	  	6- Reposer pendant 1H
+	  	6- 20 minute à 190° au four
+  	</description>
+  	<details>
+	  	<lait>200</lait>
+	  	<farine_de_coco>125</farine_de_coco>
+	  	<oeuf>1</oeuf>
+	  	<levure_boulanger>8</levure_boulanger>
+  	</details>
+  </recette> 
+ 
+</recettes>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>		<ingredients>
+
+	<ingredient>
+		<nom>oeuf</nom>
+   		<nutriments>
+     		<fibre>0</fibre>
+     		<glucide>1</glucide>
+     		<lipide>5</lipide>
+     		<kcal>70</kcal>
+     		<portion_moyenne>1</portion_moyenne>
+   		</nutriments>
+ 	</ingredient>
+
+	<ingredient>
+  		<nom>farine_de_coco</nom>
+  		<nutriments>
+		    <fibre>42.7</fibre>
+		    <glucide>22</glucide>
+		    <lipide>11.8</lipide>
+		    <kcal>348</kcal>
+		    <portion_moyenne>100</portion_moyenne>
+  		</nutriments>
+	</ingredient>
+
+ 	<ingredient>
+  		<nom>copeaux_de_coco</nom>
+  		<nutriments>
+    		<fibre>9</fibre>
+    		<glucide>15</glucide>
+    		<lipide>33</lipide>
+    		<kcal>354</kcal>
+    		<portion_moyenne>100</portion_moyenne>
+  		</nutriments>
+	</ingredient>
+
+ 	<ingredient>
+  		<nom>yaourt</nom>
+  		<nutriments>
+    		<fibre>0</fibre>
+    		<glucide>4.5</glucide>
+    		<lipide>1</lipide>
+    		<kcal>43</kcal>
+    		<portion_moyenne>100</portion_moyenne>
+  		</nutriments>
+	</ingredient>
+ 	<ingredient>
+  		<nom>eau</nom>
+  		<nutriments>
+    		<fibre>0</fibre>
+    		<glucide>0</glucide>
+    		<lipide>0</lipide>
+    		<kcal>0</kcal>
+    		<portion_moyenne>100</portion_moyenne>
+  		</nutriments>
+	</ingredient>
+
+	<ingredient>
+  		<nom>levure_boulanger</nom>
+  		<nutriments>
+		    <fibre>0</fibre>
+		    <glucide>4.5</glucide>
+		    <lipide>38</lipide>
+		    <kcal>512</kcal>
+		    <portion_moyenne>100</portion_moyenne>
+  		</nutriments>
+	</ingredient>
+
+	<ingredient>
+  		<nom>lait</nom>
+  		<nutriments>
+		    <fibre>0</fibre>
+		    <glucide>4.8</glucide>
+		    <lipide>1.5</lipide>
+		    <kcal>46</kcal>
+		    <portion_moyenne>100</portion_moyenne>
+  		</nutriments>
+	</ingredient>
+
+	<ingredient>
+  		<nom>farine_ble</nom>
+  		<nutriments>
+		    <fibre>4</fibre>
+		    <glucide>68</glucide>
+		    <lipide>1</lipide>
+		    <kcal>428</kcal>
+		    <portion_moyenne>100</portion_moyenne>
+  		</nutriments>
+	</ingredient>
+	
+</ingredients>
