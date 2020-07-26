@@ -34,11 +34,12 @@ public class Main extends AppCompatActivity{
 					.beginTransaction()
 					.replace(R.id.frame_layout_main, fragment)
 					.commit();
-		this.setListenerOnButton();
+		//this.setListenerOnButton();
 		}
 		//this.fragment.updateMe();
 
 	}
+	/*
 	private void setListenerOnButton(){
 		Button button=findViewById(R.id.buttonTest);
 
@@ -48,5 +49,6 @@ public class Main extends AppCompatActivity{
 				fragment.updateMe();
 			}
 		});
-	}
+
+	 */
 }
