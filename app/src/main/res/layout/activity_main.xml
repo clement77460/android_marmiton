@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="marmitonLike.Main"
-    android:orientation="vertical">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="marmitonLike.Main">
 
     <FrameLayout
         android:id="@+id/frame_layout_main"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"/>
-    <Button
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/buttonTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Ajouter ingrédient"
-        android:id="@+id/buttonTest"/>
+        android:visibility="invisible" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="@color/colorAccent"
+        app:itemBackground="@color/colorAccent"
+        app:menu="@menu/bottom_navigation_view" />
 </LinearLayout>

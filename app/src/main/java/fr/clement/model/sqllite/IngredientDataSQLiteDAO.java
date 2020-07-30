@@ -25,7 +25,7 @@ public class IngredientDataSQLiteDAO {
 
         // Create a new map of values, where column names are the keys
         ContentValues values = new ContentValues();
-        values.put(SQLiteScore.FeedEntry.COLUMN_NAME_LABEL, "tomatooooo");
+        values.put(SQLiteScore.FeedEntry.COLUMN_NAME_LABEL, "tomatoooo");
         values.put(SQLiteScore.FeedEntry.COLUMN_NAME_KCAL, 25.0);
         values.put(SQLiteScore.FeedEntry.COLUMN_NAME_FIBRE, 2.0);
         values.put(SQLiteScore.FeedEntry.COLUMN_NAME_GLUCIDE, 0.0);
@@ -80,8 +80,9 @@ public class IngredientDataSQLiteDAO {
 
     }
 
-    public void deleteEntries(){
-        this.sqLiteScore.getWritableDatabase().delete(SQLiteScore.FeedEntry.TABLE_NAME,null,null);
+    public void deleteEntries(String label){
+        String[] selctionArg = {String.valueOf(label)};
+        this.sqLiteScore.getWritableDatabase().delete(SQLiteScore.FeedEntry.TABLE_NAME,SQLiteScore.FeedEntry.COLUMN_NAME_LABEL+"=?",selctionArg);
     }
 
     public void close(){

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bv_ingredient"
+        android:enabled="true"
+        android:title="Ingrédients"
+        android:icon="@drawable/ingredients_icon"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bv_recette"
+        android:enabled="true"
+        android:title="Recettes"
+        android:icon="@drawable/menu_icon_test"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bv_macro"
+        android:enabled="true"
+        android:title="track macro"
+        android:icon="@drawable/tracking_icon"
+        app:showAsAction="ifRoom" />
+
+</menu>
